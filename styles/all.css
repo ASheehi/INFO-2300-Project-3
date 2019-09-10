@@ -1,0 +1,280 @@
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(161, 0, 0);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .active {
+  color: white;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+h1, a {
+    color: white;
+
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+header {
+    background-color: #111111b4;
+    padding: 1px 0 0px 0;
+}
+
+article p {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+header #title {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header #title h2 {
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 300px;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+header #title #login {
+    padding-left: 1000px;
+}
+
+#login {
+    color: white;
+}
+
+header h2, h2 {display: block;}
+
+header #logo {
+    float: left;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+#logo, #info {display: inline-table;}
+
+article h1,h2 {display: block;}
+
+
+footer {
+    padding: 10px 10px;
+    background-color: #000000e5;
+}
+
+footer h4 {
+    color: white;
+    text-align: left;
+
+}
+
+footer img, h4{
+    display: inherit;
+}
+
+body {
+    margin: 0 auto;
+    background-color:#030303b4;
+}
+
+.pageTitle {
+    float: center;
+    text-align: center;
+    font-size: 250%;
+    padding-top: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    padding-bottom: 100px;
+    float: center;
+    text-align: center;
+    position: center;
+    padding-top: 75px;
+}
+
+.row img {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.row h2 {
+    font-size: 400%;
+    font-family: monospace;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(3, 3, 3);
+}
+
+#menu li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+header li a {
+    list-style: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(100, 100, 100);
+}
+
+.hidden {
+    display: none;
+}
+
+#nav-last {
+    list-style: none;
+}
+
+#form p {
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+form {
+    border-style: ridge;
+    border: black;
+}
+
+#content-wrap {
+    padding: 10px;
+}
+
+#about {
+      padding-top: 20px;
+      text-align: center;
+      float: center;
+}
+
+form li {
+    list-style: none;
+}
+
+img.thumb {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+  }
+
+/* Add a hover effect (blue shadow) */
+img.thumb img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.featured img {
+    width: 600px;
+}
+
+.imgind .row img {
+    width: 500px;
+}
+
+
+
+.column1 {
+    float: left;
+    padding: 10px;
+    padding-top: 0;
+    height: 500px;
+}
+
+.column2 {
+    float: left;
+    padding: 10px;
+    padding-top: 0;
+    height: 750px;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 71.25%;
+}
+
+.leftSub {
+    width: 30%;
+}
+
+.rightSub {
+    width: 42%;
+}
+
+#bios h2 {
+    color: black;
+    font-size: 130%;
+}
